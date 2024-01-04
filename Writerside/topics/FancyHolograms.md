@@ -5,14 +5,14 @@
 [![Downloads](https://img.shields.io/modrinth/dt/fancyholograms?color=00AF5C&label=modrinth&style=flat&logo=modrinth)](https://modrinth.com/plugin/fancyholograms/versions)
 ![GitHub Downloads](https://img.shields.io/github/downloads/FancyMcPlugins/FancyHolograms/total?logo=GitHub&style=flat-square)
 
-FancyHolograms is a simple and lightweight hologram plugin for minecraft servers using the display entities.<br>
-The plugin is blazingly fast because of using packets.<br>
-The plugin is only supported for **1.19.4 - latest version**<br>
-It is highly recommended to use Paper or a fork of it - Folia is also supported.<br>
-PlaceholderAPI and MiniPlaceholders is supported.<br>
+FancyHolograms is a simple and lightweight hologram plugin for minecraft servers using the display entities.<br/>
+The plugin is blazingly fast because of using packets.<br/>
+The plugin is only supported for **1.19.4 - latest version**<br/>
+It is highly recommended to use Paper or a fork of it - Folia is also supported.<br/>
+PlaceholderAPI and MiniPlaceholders is supported.<br/>
 
-[Getting started](FH-Getting-started.md)<br>
-[Go to the commands](FH-Commands.md)<br>
+[Getting started](FH-Getting-started.md)<br/>
+[Go to the commands](FH-Commands.md)<br/>
 [Go to the api](FH-API.md)
 
 ## Features

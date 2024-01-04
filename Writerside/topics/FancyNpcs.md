@@ -12,8 +12,8 @@ The plugin is only supported for **1.19.4 - latest version**
 
 It is highly recommended to use Paper or a fork of it - Folia is also supported.
 
-[Getting started](FN-Getting-started.md)<br>
-[Go to the commands](FN-Commands.md)<br>
+[Getting started](FN-Getting-started.md)<br/>
+[Go to the commands](FN-Commands.md)<br/>
 [Go to the api](FH-API.md)
 
 # Features
