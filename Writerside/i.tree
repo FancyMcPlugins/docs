@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="i"
+                  name="internal"
+                  start-page="internal.md" is-library="true">
+
+    <toc-element topic="internal.md"/>
+    <toc-element topic="I-New-Minecraft-version.md"/>
+    <toc-element topic="I-Releases.md"/>
+</instance-profile>
