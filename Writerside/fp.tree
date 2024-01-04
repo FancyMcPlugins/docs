@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="fp"
+                 name="FancyPlugins"
+                 start-page="FancyPlugins.md">
+
+    <toc-element topic="FancyPlugins.md"/>
+    <toc-element topic="FancyNpcs.md"/>
+    <toc-element topic="Test.md">
+        <toc-element topic="Section-Starting-Page.topic"/>
+        <toc-element topic="Default-topic.md"/>
+    </toc-element>
+</instance-profile>

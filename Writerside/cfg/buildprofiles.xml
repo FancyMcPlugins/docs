@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <primary-color>blueberry</primary-color>
+        <custom-favicons>favicon.png</custom-favicons>
+        <header-logo>favicon.png</header-logo>
+
+        <download-title>Download</download-title>
+        <download-page>https://fancyplugins.de/fancynpcs/download/</download-page>
+        <showDownloadButton>true</showDownloadButton>
+    </variables>
+    <build-profile instance="fp">
+        <variables>
+            <noindex-content>false</noindex-content>
+        </variables>
+        <footer>
+            <copyright>FancyPlugins 2022-2024</copyright>
+            <link href="https://fancyplugins.de/">Website</link>
+            <link href="https://discord.gg/ZUgYCEJUEx">Discord</link>
+            <link href="https://github.com/FancyMcPlugins">GitHub</link>
+            <link href="https://hangar.papermc.io/Oliver">Hangar</link>
+            <link href="https://modrinth.com/user/Oliver">Modrinth</link>
+            <link href="https://jenkins.fancyplugins.de/">Dev builds</link>
+        </footer>
+    </build-profile>
+
+</buildprofiles>
