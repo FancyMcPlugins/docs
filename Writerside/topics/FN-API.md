@@ -4,14 +4,14 @@
 
 ### Gradle
 
-```gradle
+```Kotlin
 repositories {
     maven("https://repo.fancyplugins.de/releases")
     ...
 }
 ```
 
-```gradle
+```Kotlin
 dependencies {
     compileOnly("de.oliver:FancyNpcs:version")
     ...
@@ -20,7 +20,7 @@ dependencies {
 
 ### Maven
 
-```maven
+```Markup
 <repository>
     <id>fancyplugins-releases</id>
     <name>FancyPlugins Repository</name>
@@ -28,7 +28,7 @@ dependencies {
 </repository>
 ```
 
-```maven
+```Markup
 <dependency>
     <groupId>de.oliver</groupId>
     <artifactId>FancyNpcs</artifactId>
