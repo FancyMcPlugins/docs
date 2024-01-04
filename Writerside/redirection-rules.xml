@@ -30,4 +30,8 @@
         <description>Created after removal of "This is the first topic" from FancyPlugins</description>
         <accepts>Default-topic.html</accepts>
     </rule>
+    <rule id="1f230ebb">
+        <description>Created after removal of "Getting started" from FancyPlugins</description>
+        <accepts>FN-API-Getting-started.html</accepts>
+    </rule>
 </rules>

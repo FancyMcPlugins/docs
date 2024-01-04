@@ -1,3 +1,104 @@
 # API
 
-TODO
+## Including the API into your project
+
+### Gradle
+
+```gradle
+repositories {
+    maven("https://repo.fancyplugins.de/releases")
+    ...
+}
+```
+
+```gradle
+dependencies {
+    compileOnly("de.oliver:FancyNpcs:version")
+    ...
+}
+```
+
+### Maven
+
+```maven
+<repository>
+    <id>fancyplugins-releases</id>
+    <name>FancyPlugins Repository</name>
+    <url>https://repo.fancyplugins.de/releases</url>
+</repository>
+```
+
+```maven
+<dependency>
+    <groupId>de.oliver</groupId>
+    <artifactId>FancyNpcs</artifactId>
+    <version>VERSION</version>
+</dependency>
+
+```
+
+## List of all events
+
+### NpcCreateEvent
+
+Is fired when a new NPC is being created
+
+### NpcRemoveEvent
+
+Is fired when a NPC is being removed
+
+### NpcSpawnEvent
+
+Is fired when a NPC is being spawned
+
+### NpcModifyEvent
+
+Is fired when a NPC is being modified
+
+### NpcInteractEvent
+
+Is fired when a player interacts with a NPC
+
+### NpcStartLookingEvent
+
+Is fired when NPC starts looking at a player
+
+### NpcStopLookingEvent
+
+Is fired when NPC stops looking at a player
+
+## Creating a NPC
+
+```java
+NpcData data = new NpcData("myNpc", creatorUUID, location);
+SkinFetcher skin = new SkinFetcher("username or url");
+data.setSkin(skin);
+data.setDisplayName("<red>cool displayname");
+
+Npc npc = FancyNpcsPlugin.get().getNpcAdapter().apply(data);
+FancyNpcsPlugin.get().getNpcManager().registerNpc(npc);
+npc.create();
+npc.spawnForAll();
+```
+
+## Modify a NPC
+
+```java
+Npc npc = FancyNpcsPlugin.get().getNpcManager().getNpc("myNpc");
+npc.getData().setDisplayName("New cool display name");
+
+npc.updateForAll();
+
+// for some modifications you need to respawn the npc
+npc.removeForAll();
+npc.spawnForAll();
+```
+
+## Remove a NPC
+
+```java
+Npc npc = FancyNpcsPlugin.get().getNpcManager().getNpc("myNpc");
+npc.removeForAll();
+
+FancyNpcsPlugin.get().getNpcManager().removeNpc(npc);
+```

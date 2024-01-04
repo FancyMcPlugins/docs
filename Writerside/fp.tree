@@ -11,11 +11,15 @@
         <toc-element topic="FN-Getting-started.md"/>
         <toc-element topic="FN-Commands.md"/>
         <toc-element topic="FN-API.md"/>
+        <toc-element topic="FN-Misc.md">
+            <toc-element topic="FN-Multiple-lines.md"/>
+        </toc-element>
     </toc-element>
     <toc-element topic="FancyHolograms.md">
         <toc-element topic="FH-Getting-started.md"/>
         <toc-element topic="FH-Commands.md"/>
-        <toc-element topic="FH-API.md"/>
+        <toc-element topic="FH-API.md">
+        </toc-element>
     </toc-element>
     <toc-element topic="Test.md">
         <toc-element topic="Test-Markdown.md">
