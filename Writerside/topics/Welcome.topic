@@ -33,7 +33,9 @@
 
         <primary>
             <title>FancyNpcs</title>
-            <a href="FN-Getting-started.md" summary="How to get started with FancyNpcs">Getting started</a>
+            <a href="FN-Getting-started.md"
+               summary="How to install FancyNpcs on your server + how to create your first basic NPC">Getting
+                started</a>
             <a href="FN-Commands.md" summary="Documentation for all commands of FancyNpcs">Commands</a>
             <a href="FN-API.md" summary="Documentation about the developer API">API</a>
         </primary>

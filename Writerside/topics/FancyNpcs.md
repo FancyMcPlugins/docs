@@ -16,7 +16,7 @@ It is highly recommended to use Paper or a fork of it - Folia is also supported.
 [Go to the commands](FN-Commands.md)<br/>
 [Go to the api](FH-API.md)
 
-# Features
+## Features
 
 With FancyNpcs you can create NPCs that look like real players. You can edit a bunch of properties like the display name
 or skin.
