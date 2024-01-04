@@ -10,4 +10,16 @@
         <description>Created after removal of "Tutorial" from Help Instance</description>
         <accepts>Tutorial.html</accepts>
     </rule>
+    <rule id="37a935fc">
+        <description>Created after removal of "Welcome" from FancyPlugins</description>
+        <accepts>Welcome.html</accepts>
+    </rule>
+    <rule id="45bb3924">
+        <description>Created after removal of "Commands" from FancyPlugins</description>
+        <accepts>Commands.html</accepts>
+    </rule>
+    <rule id="6563f25f">
+        <description>Created after removal of "FN-API" from FancyPlugins</description>
+        <accepts>FN-API.html</accepts>
+    </rule>
 </rules>
