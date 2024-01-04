@@ -11,8 +11,9 @@
         <toc-element topic="FN-Getting-started.md"/>
         <toc-element topic="FN-Commands.md"/>
         <toc-element topic="FN-API.md"/>
-        <toc-element topic="FN-Misc.md">
+        <toc-element topic="FN-Tutorials.md">
             <toc-element topic="FN-Multiple-lines.md"/>
+            <toc-element topic="FN-Sitting-NPCs.md"/>
         </toc-element>
     </toc-element>
     <toc-element topic="FancyHolograms.md">
