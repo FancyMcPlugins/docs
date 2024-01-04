@@ -18,7 +18,19 @@
         <toc-element topic="FH-API.md"/>
     </toc-element>
     <toc-element topic="Test.md">
-        <toc-element topic="Section-Starting-Page.topic"/>
-        <toc-element topic="Default-topic.md"/>
+        <toc-element topic="Test-Markdown.md">
+            <toc-element topic="MD-Starter.md"/>
+            <toc-element topic="MD-How-to.md"/>
+            <toc-element topic="MD-Overview.md"/>
+            <toc-element topic="MD-Reference.md"/>
+            <toc-element topic="MD-Tutorial.md"/>
+        </toc-element>
+        <toc-element topic="Test-XML.topic">
+            <toc-element topic="Test-How-to.topic"/>
+            <toc-element topic="Test-Overview.topic"/>
+            <toc-element topic="Test-Reference.topic"/>
+            <toc-element topic="Test-Tutorial.topic"/>
+            <toc-element topic="Test-Section-Starting-Page.topic"/>
+        </toc-element>
     </toc-element>
 </instance-profile>

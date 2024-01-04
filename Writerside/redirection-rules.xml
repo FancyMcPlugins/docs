@@ -22,4 +22,12 @@
         <description>Created after removal of "FN-API" from FancyPlugins</description>
         <accepts>FN-API.html</accepts>
     </rule>
+    <rule id="63a862bf">
+        <description>Created after removal of "Section Starting Page" from FancyPlugins</description>
+        <accepts>Section-Starting-Page.html</accepts>
+    </rule>
+    <rule id="29bcc9d7">
+        <description>Created after removal of "This is the first topic" from FancyPlugins</description>
+        <accepts>Default-topic.html</accepts>
+    </rule>
 </rules>
