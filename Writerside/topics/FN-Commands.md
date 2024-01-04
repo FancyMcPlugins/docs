@@ -7,25 +7,25 @@ most out of its features.
 
 This command is to manage the plugin itself.
 
-### version
+## version
 
 Description: Shows the current version of the plugin<br>
 Syntax: ``/FancyNpcs version``<br>
 Permission: ``FancyNpcs.admin``
 
-### reload
+## reload
 
 Description: Reloads the language file and all npcs<br>
 Syntax: ``/FancyNpcs reload``<br>
 Permission: ``FancyNpcs.admin``
 
-### save
+## save
 
 Description: Saves all npcs to disk<br>
 Syntax: ``/FancyNpcs save``<br>
 Permission: ``FancyNpcs.admin``
 
-### featureFlags
+## featureFlags
 
 Description: Shows a list of all enabled feature flags<br>
 Syntax: ``/FancyNpcs featureFlags``<br>
@@ -37,43 +37,43 @@ This command is to manage the npcs.
 
 For all subcommands of /npc - ``FancyNpcs.npc.*``<br>
 
-### help
+## help
 
 Description: Shows a list of all commands<br>
 Syntax: ``/Npc help``<br>
 Permission: ``FancyNpcs.npc.help`` or ``FancyNpcs.npc.*``
 
-### info
+## info
 
 Description: Shows all important information about an npc<br>
 Syntax: ``/Npc into (npc)``<br>
 Permission: ``FancyNpcs.npc.info`` or ``FancyNpcs.npc.*``
 
-### create
+## create
 
 Description: Creates a new npc at your location<br>
 Syntax: ``/Npc create (npc)``<br>
 Permission: ``FancyNpcs.npc.create`` or ``FancyNpcs.npc.*``
 
-### remove
+## remove
 
 Description: Removes the npc<br>
 Syntax: ``/Npc remove (npc)``<br>
 Permission: ``FancyNpcs.npc.remove`` or ``FancyNpcs.npc.*``
 
-### copy
+## copy
 
 Description: Creates a copy of the npc<br>
 Syntax: ``/Npc copy (npc) (new name)``<br>
 Permission: ``FancyNpcs.npc.copy`` or ``FancyNpcs.npc.*``
 
-### list
+## list
 
 Description: Shows a list of all created npcs<br>
 Syntax: ``/Npc list``<br>
 Permission: ``FancyNpcs.npc.list`` or ``FancyNpcs.npc.*``
 
-### type
+## type
 
 Description: Changes the entity type of the npc<br>
 Syntax: ``/Npc type (npc name) (type)``<br>
@@ -85,13 +85,13 @@ When using any entity type other than Player, the following features are disable
 - Changing the equipment
 - Showing in tab
 
-### attribute
+## attribute
 
 Description: Changes a type-specific attribute of the npc<br>
 Syntax: ``/Npc attribute (npc name) (attribute) (value)``<br>
 Permission: ``FancyNpcs.npc.attribute`` or ``FancyNpcs.npc.*``
 
-### displayName
+## displayName
 
 Description: Changes the displayname of the npc<br>
 Syntax: ``/Npc displayName (npc name) (display name ...)``<br>
@@ -101,50 +101,50 @@ Placeholders:
 - all placeholders from PlaceholderAPI
 - ``<empty>`` will make the displayname disappear completely
 
-### showInTab
+## showInTab
 
 Description: Changes whether the npc will be shown in the tablist or not<br>
 Syntax: ``/Npc showInTab (npc name) ('true' | 'false')``<br>
 Permission: ``FancyNpcs.npc.showInTab`` or ``FancyNpcs.npc.*``
 
-### skin
+## skin
 
 Description: Changes the skin of the npc<br>
 Syntax: ``/Npc skin (npc name) (username | url to .png)``<br>
 Syntax: ``/Npc skin`` - uses your skin<br>
 Permission: ``FancyNpcs.npc.skin`` or ``FancyNpcs.npc.*``
 
-### equipment
+## equipment
 
 Description: Equips the npc with item you are holding in your mainhand<br>
 Syntax: ``/Npc equipment (npc name) (slot)``<br>
 Permission: ``FancyNpcs.npc.equipment`` or ``FancyNpcs.npc.*``
 
-### glowing
+## glowing
 
 Description: Changes whether the npc should glow or not<br>
 Syntax: ``/Npc glowing (npc name) ('true' | 'false')``<br>
 Permission: ``FancyNpcs.npc.glowing`` or ``FancyNpcs.npc.*``
 
-### glowingColor
+## glowingColor
 
 Description: Changes the color of the glowing effect<br>
 Syntax: ``/Npc glowingColor (npc name) (color)``<br>
 Permission: ``FancyNpcs.npc.glowingColor`` or ``FancyNpcs.npc.*``
 
-### collidable
+## collidable
 
 Description: Changes whether the NPC will be collidable or not<br>
 Syntax: ``/Npc collidable (npc name) ('true' | 'false')``<br>
 Permission: ``FancyNpcs.npc.collidable`` or ``FancyNpcs.npc.*``
 
-### turnToPlayer
+## turnToPlayer
 
 Description: Changes whether the npc will turn to near players or not<br>
 Syntax: ``/Npc turnToPlayer (npc name) ('true' | 'false')``<br>
 Permission: ``FancyNpcs.npc.turnToPlayer`` or ``FancyNpcs.npc.*``
 
-### message
+## message
 
 Description: Changes the messages that will be sent to the player when interacting with the npc<br>
 Syntax: ``/Npc message (npc name) add (message)`` - adds a new message<br>
@@ -156,7 +156,7 @@ Placeholders:
 
 - all placeholders from PlaceholderAPI
 
-### playerCommand
+## playerCommand
 
 Description: Changes the command that the player executes when interacting with the npc<br>
 Syntax: ``/Npc playerCommand (npc name) ('none' | message ...)``<br>
@@ -165,7 +165,7 @@ Placeholders:
 
 - all placeholders from PlaceholderAPI
 
-### serverCommand
+## serverCommand
 
 Description: Changes the command that the console executes when interacting with the npc<br>
 Syntax: ``/Npc serverCommand (npc name) ('none' | message ...)``<br>
@@ -175,19 +175,19 @@ Placeholders:
 - all placeholders from PlaceholderAPI
 - ``{player}`` - the player's username
 
-### interactionCooldown
+## interactionCooldown
 
 Description: Changes the cooldown for player interactions with the npc<br>
 Syntax: ``/Npc interactionCooldown (npc name) (time in seconds)``<br>
 Permission: ``FancyNpcs.npc.interactionCooldown`` or ``FancyNpcs.npc.*``<br>
 
-### moveHere
+## moveHere
 
 Description: Teleports the npc to you<br>
 Syntax: ``/Npc moveHere (npc name)``<br>
 Permission: ``FancyNpcs.npc.moveHere`` or ``FancyNpcs.npc.*``
 
-### teleport
+## teleport
 
 Description: Teleports the npc to the provided location<br>
 Syntax: ``/Npc teleport (npc name) (x) (y) (z) [world]``<br>
