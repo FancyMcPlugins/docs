@@ -49,7 +49,7 @@
 </procedure>
 
 <procedure title="Move the NPC to a specific location">
-    <p>Run the following command to move the NPC to you:</p>
+    <p>Run the following command to move the NPC to specific coordinates:</p>
     <step>/npc teleport myNpc 127 61 347</step>
     <step>The NPC should now be at the coordinates x=127 y=61 z=347</step>
 </procedure>

@@ -86,3 +86,9 @@ holo.refreshHologram(Bukkit.getOnlinePlayers());
 holo.hideHologram(Bukkit.getOnlinePlayers());
 holo.showHologram(Bukkit.getOnlinePlayers());
 ```
+
+## Help about the API
+
+<tip>
+If you need help with the API, you can join our <a href="https://discord.gg/8QH2Z3Z">Discord</a> and ask in the #holograms-dev channel.
+</tip>
