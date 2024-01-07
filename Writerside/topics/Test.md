@@ -1,3 +1,3 @@
 # Test
 
-Start typing here...
+Test category for testing purposes.
