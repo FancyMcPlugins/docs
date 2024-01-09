@@ -46,7 +46,7 @@ Permission: ``FancyNpcs.npc.help`` or ``FancyNpcs.npc.*``
 ## info
 
 Description: Shows all important information about an npc<br/>
-Syntax: ``/Npc into (npc)``<br/>
+Syntax: ``/Npc info (npc)``<br/>
 Permission: ``FancyNpcs.npc.info`` or ``FancyNpcs.npc.*``
 
 ## create
