@@ -111,7 +111,7 @@ Permission: ``FancyNpcs.npc.showInTab`` or ``FancyNpcs.npc.*``
 
 Description: Changes the skin of the npc<br/>
 Syntax: ``/Npc skin (npc name) (username | url to .png)``<br/>
-Syntax: ``/Npc skin`` - uses your skin<br/>
+Syntax: ``/Npc skin (npc name)`` - uses your skin<br/>
 Permission: ``FancyNpcs.npc.skin`` or ``FancyNpcs.npc.*``
 
 ## equipment
