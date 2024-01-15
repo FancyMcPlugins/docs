@@ -114,6 +114,12 @@ Syntax: ``/Npc skin (npc name) (username | url to .png)``<br/>
 Syntax: ``/Npc skin (npc name)`` - uses your skin<br/>
 Permission: ``FancyNpcs.npc.skin`` or ``FancyNpcs.npc.*``
 
+## mirrorSkin
+
+Description: If set to true, the npc will always have the skin of the player, that the packet is being sent to<br/>
+Syntax: ``/Npc mirrorSkin (npc name) ('true', 'false')``<br/>
+Permission: ``FancyNpcs.npc.mirrorskin`` or ``FancyNpcs.npc.*``
+
 ## equipment
 
 Description: Equips the npc with item you are holding in your mainhand<br/>
@@ -151,6 +157,8 @@ Syntax: ``/Npc message (npc name) add (message)`` - adds a new message<br/>
 Syntax: ``/Npc message (npc name) set (index) (message)`` - sets a message at an index<br/>
 Syntax: ``/Npc message (npc name) remove (index)`` - removes a message at an index<br/>
 Syntax: ``/Npc message (npc name) clear`` - removes all messages<br/>
+Syntax: ``/Npc message (npc name) sendRandomly ('true' | 'false')`` - if true, it will send one random message from the
+list<br/>
 Permission: ``FancyNpcs.npc.message`` or ``FancyNpcs.npc.*``<br/>
 Placeholders:
 
