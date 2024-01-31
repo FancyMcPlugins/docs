@@ -10,6 +10,8 @@
         <download-title>Download plugins</download-title>
         <download-page>https://fancyplugins.de/</download-page>
         <showDownloadButton>true</showDownloadButton>
+
+        <product-web-url>https://fancyplugins.de/</product-web-url>
     </variables>
     <build-profile instance="fp">
         <variables>
