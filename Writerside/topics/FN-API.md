@@ -7,6 +7,7 @@
 ```Kotlin
 repositories {
     maven("https://repo.fancyplugins.de/releases")
+    maven("https://jitpack.io")
     ...
 }
 ```
@@ -26,6 +27,10 @@ dependencies {
     <name>FancyPlugins Repository</name>
     <url>https://repo.fancyplugins.de/releases</url>
 </repository>
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
 ```
 
 ```Markup
@@ -36,6 +41,10 @@ dependencies {
 </dependency>
 
 ```
+
+## JavaDoc
+
+You can find the JavaDoc [here](https://fancyplugins.de/javadocs/fancynpcs/)
 
 ## List of all events
 
