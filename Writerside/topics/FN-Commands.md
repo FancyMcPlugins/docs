@@ -166,8 +166,12 @@ Placeholders:
 
 ## playerCommand
 
-Description: Changes the command that the player executes when interacting with the npc<br/>
-Syntax: ``/Npc playerCommand (npc name) ('none' | message ...)``<br/>
+Description: Changes the commands that the player executes when interacting with the npc<br/>
+Syntax: ``/Npc playerCommand (npc name) add (playerCommand)`` - adds a new command<br/>
+Syntax: ``/Npc playerCommand (npc name) set (index) (playerCommand)`` - sets a command at an index<br/>
+Syntax: ``/Npc playerCommand (npc name) remove (index)`` - removes a command at an index<br/>
+Syntax: ``/Npc playerCommand (npc name) clear`` - removes all commands<br/>
+list<br/>
 Permission: ``FancyNpcs.npc.playerCommand`` or ``FancyNpcs.npc.*``<br/>
 Placeholders:
 
