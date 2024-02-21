@@ -67,6 +67,12 @@ Description: Creates a copy of the npc<br/>
 Syntax: ``/Npc copy (npc) (new name)``<br/>
 Permission: ``FancyNpcs.npc.copy`` or ``FancyNpcs.npc.*``
 
+## fix
+
+Description: If you have problems with the npc (displayName or pose is bugged etc.), this might fix the issue<br/>
+Syntax: ``/Npc fix (npc)``<br/>
+Permission: ``FancyNpcs.npc.fix`` or ``FancyNpcs.npc.*``
+
 ## list
 
 Description: Shows a list of all created npcs<br/>
