@@ -115,6 +115,6 @@ FancyNpcsPlugin.get().getNpcManager().removeNpc(npc);
 ## Help about the API
 
 <tip>
-If you need help with the API, you can join our <a href="https://discord.gg/8QH2Z3Z">Discord</a> and ask in the #npcs-dev channel.
+If you need help with the API, you can join our <a href="https://discord.gg/ZUgYCEJUEx">Discord</a> and ask in the #npcs-dev channel.
 </tip>
 
