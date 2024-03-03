@@ -96,6 +96,13 @@ Description: Sets from how far away players can see the hologram (-1 for default
 Syntax: ``/Hologram edit (hologram) visibilityDistance (distance)``<br/>
 Permission: ``FancyHolograms.admin``
 
+## visibleByDefault
+
+Description: If set to false, the player needs permissions to view the hologram<br/>
+Syntax: ``/Hologram edit (hologram) visibleByDefault (true | false)``<br/>
+Permission: ``FancyHolograms.admin``<br/>
+Permission to view a hologram: ``FancyHolograms.viewhologram.<name>``
+
 ## scale
 
 Description: Sets the scale (can be floats)<br/>
