@@ -75,6 +75,10 @@ Changes displayname of the NPC. Supports MiniMessage, PlaceholderAPI and MiniPla
 
 ### `/npc fix`
 
+Fixes the NPC if it's not working properly.
+
+(Currently it's only respawning the NPC)
+
 - **Syntax**:  `/npc fix (npc)`
 - **Permissions**: `fancynpcs.command.npc.fix`
 
@@ -86,6 +90,8 @@ Changes glowing state and color of the NPC.
 - **Permissions**: `fancynpcs.command.npc.glowing`
 
 ### `/npc help`
+
+Shows help about all commands.
 
 - **Syntax**:  `/npc help [page]`
 - **Permissions**: `fancynpcs.command.npc.help`
