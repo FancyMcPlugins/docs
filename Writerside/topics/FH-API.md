@@ -7,7 +7,6 @@
 ```Kotlin
 repositories {
     maven("https://repo.fancyplugins.de/releases")
-    maven("https://jitpack.io")
     ...
 }
 ```
@@ -27,10 +26,6 @@ dependencies {
     <name>FancyPlugins Repository</name>
     <url>https://repo.fancyplugins.de/releases</url>
 </repository>
-<repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-</repository>
 ```
 
 ```Markup
@@ -38,6 +33,7 @@ dependencies {
     <groupId>de.oliver</groupId>
     <artifactId>FancyHolograms</artifactId>
     <version>VERSION</version>
+    <scope>provided</scope>
 </dependency>
 ```
 

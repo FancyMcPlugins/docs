@@ -14,7 +14,7 @@
     <p>Put the downloaded file into the plugins folder of your server.</p>
 </procedure>
 
-<warning>Be aware, that only Paper is supported, but the plugin should work on any of its forks (like <a href="https://github.com/PaperMC/Folia">Folia</a> or <a href="https://github.com/PurpurMC/Purpur">Purpur</a>). The plugin will not work on Spigot or Bukkit (we are working on a solution).</warning>
+<warning>Be aware, that only Paper is supported, but the plugin should work on any of its forks (like <a href="https://github.com/PaperMC/Folia">Folia</a> or <a href="https://github.com/PurpurMC/Purpur">Purpur</a>). Spigot or Bukkit is not supported.</warning>
 
 <procedure title="Restart server">
     <p>Restart your server.</p>
