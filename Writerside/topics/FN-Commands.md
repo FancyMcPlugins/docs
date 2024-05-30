@@ -190,6 +190,8 @@ PlaceholderAPI and MiniPlaceholders are supported.
 
 ### `/npc remove`
 
+Removes the specified NPC.
+
 - **Syntax**: `/npc remove (npc)`
 - **Permissions**: `fancynpcs.command.npc.remove`
 
