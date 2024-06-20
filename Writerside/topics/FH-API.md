@@ -46,21 +46,16 @@ You can find the JavaDoc [here](https://fancyplugins.de/javadocs/fancyholograms/
 ```java
 HologramManager manager = FancyHologramsPlugin.get().getHologramManager();
 
-DisplayHologramData displayData = DisplayHologramData.getDefault(location);
-displayData.setBillboard(Display.Billboard.FIXED);
-// set more general data here
+TextHologramData hologramData = new TextHologramData("hologram_name", location); // or create BlockHologramData / ItemHologramData
+// Adjust the Hologram Data (Optional)
+hologramData.setBackground(TextColor.color(100, 255, 79));
+hologramData.setBillboard(Display.Billboard.FIXED);
 
-TextHologramData textData = TextHologramData.getDefault("hologram_name"); // or create BlockHologramData / ItemHologramData
-textData.setBackground(TextColor.color(100, 255, 79));
-// set more type-specific data here
-
-HologramData data = new HologramData("hologram_name", displayData, HologramType.TEXT, textData);
 Hologram hologram = manager.create(data);
 
-manager.addHologram(hologram); // registers the hologram (FancyHolograms will save and load it)
-
-hologram.createHologram();
-hologram.showHologram(Bukkit.getOnlinePlayers());
+// Register the hologram to the HologramManager (FancyHolograms will display, save and load the hologram)
+// Use HologramData#setPersistent to stop the hologram from being saved
+manager.addHologram(hologram); 
 ```
 
 ## Modify an existing hologram
@@ -68,27 +63,18 @@ hologram.showHologram(Bukkit.getOnlinePlayers());
 ```java
 HologramManager manager = FancyHologramsPlugin.get().getHologramManager();
 
-Hologram holo = manager.getHologram("hologram_name").orElse(null);
-if (holo == null) {
+Hologram hologram = manager.getHologram("hologram_name").orElse(null);
+if (hologram == null) {
     // hologram not found
     return;
 }
 
-holo.getData().getDisplayData().setBillboard(Display.Billboard.CENTER);
+HologramData hologramData = hologram.getData();
+hologramData.setBillboard(Display.Billboard.CENTER);
 
-if (holo.getData().getTypeData() instanceof TextHologramData textData) {
+if (hologramData instanceof TextHologramData textData) {
     textData.setTextAlignment(TextDisplay.TextAlignment.LEFT);
 }
-
-// apply the changes
-holo.updateHologram();
-
-// refresh the hologram for all players
-holo.refreshHologram(Bukkit.getOnlinePlayers());
-
-// if refreshing did not work, try to respawn the hologram
-holo.hideHologram(Bukkit.getOnlinePlayers());
-holo.showHologram(Bukkit.getOnlinePlayers());
 ```
 
 ## Help about the API
