@@ -37,6 +37,12 @@ Description: Shows a list of all holograms<br/>
 Syntax: ``/Hologram list``<br/>
 Permission: ``FancyHolograms.admin``
 
+## nearby
+
+Description: Shows all holograms nearby you in a rangebr/>
+Syntax: ``/Hologram nearby <range>``<br/>
+Permission: ``FancyHolograms.admin``
+
 ## create
 
 Description: Creates a new hologram at your location<br/>
