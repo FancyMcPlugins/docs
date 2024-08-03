@@ -11,6 +11,7 @@
         <toc-element topic="FN-Getting-started.md"/>
         <toc-element topic="FN-Commands.md"/>
         <toc-element topic="FN-API.md"/>
+        <toc-element topic="FN-Examples.md"/>
         <toc-element topic="FN-Tutorials.md">
             <toc-element topic="FN-Tutorials-MiniMessages.md"/>
             <toc-element topic="FN-Multiple-lines.md"/>
@@ -22,6 +23,7 @@
         <toc-element topic="FH-Commands.md"/>
         <toc-element topic="FH-API.md">
         </toc-element>
+        <toc-element topic="FH-Examples.md"/>
         <toc-element topic="FH-Tutorials.md">
             <toc-element topic="FH-clickable-holograms.md"/>
         </toc-element>
