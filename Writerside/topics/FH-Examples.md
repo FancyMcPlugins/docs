@@ -22,6 +22,12 @@ discord server and show it to us.
 <img src="fh-freshsmp5.png" alt="fh-freshsmp5.png" style="block" border-effect="rounded"/>
 <sup>Provided by [FreshSMP](https://discord.com/invite/JFnpFNjDgk) (server ip: play.freshsmp.fun)</sup>
 
+<img src="fh-silverstone1.png" alt="fh-silverstone1.png" style="block" border-effect="rounded"/>
+<sup>Provided by play.silverstonemc.net</sup>
+
+<img src="fh-silverstone2.png" alt="fh-silverstone2.png" style="block" border-effect="rounded"/>
+<sup>Provided by play.silverstonemc.net</sup>
+
 <img src="fh1.jpeg" alt="fh1.jpeg" style="block" border-effect="rounded"/>
 <sup>Provided by [@OliverSchlueter](https://github.com/OliverSchlueter)</sup>
 
