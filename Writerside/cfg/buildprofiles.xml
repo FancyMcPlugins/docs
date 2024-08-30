@@ -2,7 +2,9 @@
 <buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
 
+    <sitemap priority="0.5" change-frequency="monthly"/>
     <variables>
+        <generate-sitemap-url-prefix>https://fancyplugins.de/docs</generate-sitemap-url-prefix>
         <primary-color>blueberry</primary-color>
         <custom-favicons>favicon.png</custom-favicons>
         <header-logo>favicon.png</header-logo>
