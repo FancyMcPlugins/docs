@@ -13,6 +13,7 @@
         <toc-element topic="FN-API.md"/>
         <toc-element topic="FN-Examples.md"/>
         <toc-element topic="FN-Tutorials.md">
+            <toc-element topic="FN_Tutorials-new-interaction-system.md"/>
             <toc-element topic="FN-Tutorials-MiniMessages.md"/>
             <toc-element topic="FN-Multiple-lines.md"/>
             <toc-element topic="FN-Sitting-NPCs.md"/>
