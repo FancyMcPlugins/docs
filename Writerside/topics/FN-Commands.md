@@ -3,6 +3,8 @@
 This page provides detailed information about the various commands available in FancyNpcs, allowing you to make the
 most out of its features.
 
+## Commadns for /fancynpcs
+
 ### `/fancynpcs feature_flags`
 
 - **Syntax**:  `/fancynpcs feature_flags`
@@ -22,6 +24,8 @@ most out of its features.
 
 - **Syntax**:  `/fancynpcs version`
 - **Permissions**: `fancynpcs.command.fancynpcs.version`
+
+## Commadns for /npc
 
 ### `/npc attribute`
 
@@ -126,28 +130,6 @@ Lists all NPCs in all worlds. Can be filtered and sorted.
 - **Syntax**:  `/npc list [--type (type)] [--sort (sort)]`
 - **Permissions**: `fancynpcs.command.npc.list`
 
-### `/npc message`
-
-``add`` - Adds a new message to the list.
-
-``set`` - Sets a message at a specific index.
-
-``remove`` - Removes a message at a specific index.
-
-``clear`` - Clears all messages.
-
-``list`` - Lists all messages.
-
-``send_randomly`` - Changes the order of messages to be sent randomly.
-
-Messages are shown to players when they interact with the NPC.
-
-PlaceholderAPI and MiniPlaceholders are supported.
-
-- **Syntax**: `/npc message (npc) (add | set | remove | clear | list | send_randmly)`
-- **Permissions**: `fancynpcs.command.npc.message.(sub)`
-- Empty message placeholder is `@none`.
-
 ### `/npc move_here`
 
 Teleports specified NPC to your location.
@@ -169,50 +151,12 @@ Lists all NPCs in your world. Can be filtered and sorted.
 - **Syntax**:  `/npc nearby [--radius (radius)] [--type (type)] [--sort (sort)]`
 - **Permissions**: `fancynpcs.command.npc.nearby`
 
-### `/npc player_command`
-
-``add`` - Adds a new player command to the list.
-
-``set`` - Sets a player command at a specific index.
-
-``remove`` - Removes a player command at a specific index.
-
-``clear`` - Clears all player commands.
-
-``list`` - Lists all player commands.
-
-Player commands are executed by the player when players interact with the NPC.
-
-PlaceholderAPI and MiniPlaceholders are supported.
-
-- **Syntax**: `/npc player_command (npc) (add | set | remove | clear | list)`
-- **Permissions**: `fancynpcs.command.npc.player_command.(sub)`
-
 ### `/npc remove`
 
 Removes the specified NPC.
 
 - **Syntax**: `/npc remove (npc)`
 - **Permissions**: `fancynpcs.command.npc.remove`
-
-### `/npc server_command`
-
-``add`` - Adds a new server command to the list.
-
-``set`` - Sets a server command at a specific index.
-
-``remove`` - Removes a server command at a specific index.
-
-``clear`` - Clears all server commands.
-
-``list`` - Lists all server commands.
-
-Server commands are executed by the console, when players interact with the NPC.
-
-PlaceholderAPI and MiniPlaceholders are supported.
-
-- **Syntax**: `/npc server_command (npc) (add | set | remove | clear | list)`
-- **Permissions**: `fancynpcs.command.npc.server_command.(sub)`
 
 ### `/npc show_in_tab`
 
@@ -267,3 +211,66 @@ Changes the scale of the size of the NPC.
 
 - **Syntax**:  `/npc scale (npc) (factor)`
 - **Permissions**: `fancynpcs.command.npc.scale`
+
+### `Add action`
+
+Adds an action to the specified NPC's trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) add (actionType) [value]`
+- **Permissions**: `fancynpcs.command.npc.action.add`
+
+### `Add action before`
+
+Adds an action before the specified index in the NPC's action list for the given trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) add_before (index) (actionType) [value]`
+- **Permissions**: `fancynpcs.command.npc.action.addBefore`
+
+### `Add action after`
+
+Adds an action after the specified index in the NPC's action list for the given trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) add_after (index) (actionType) [value]`
+- **Permissions**: `fancynpcs.command.npc.action.addAfter`
+
+### `Set action`
+
+Sets an action at the specified number in the NPC's action list for the given trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) set (number) (actionType) [value]`
+- **Permissions**: `fancynpcs.command.npc.action.set`
+
+### `Remove action`
+
+Removes an action from the NPC's action list based on the specified number for the given trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) remove (number)`
+- **Permissions**: `fancynpcs.command.npc.action.remove`
+
+### `Move action up`
+
+Moves the action at the specified number up in the NPC's action list for the given trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) move_up (number)`
+- **Permissions**: `fancynpcs.command.npc.action.moveUp`
+
+### `Move action down`
+
+Moves the action at the specified number down in the NPC's action list for the given trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) move_down (number)`
+- **Permissions**: `fancynpcs.command.npc.action.moveDown`
+
+### `Clear actions`
+
+Clears all actions from the NPC for the given trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) clear`
+- **Permissions**: `fancynpcs.command.npc.action.clear`
+
+### `List actions`
+
+Lists all actions for the specified NPC and trigger.
+
+- **Syntax**: `/npc action (npc) (trigger) list`
+- **Permissions**: `fancynpcs.command.npc.action.list`
