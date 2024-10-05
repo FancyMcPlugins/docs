@@ -9,6 +9,7 @@ system and provides a guide on how server admins can leverage it through command
 In FancyNPCs, the NPC Action System revolves around assigning actions to an NPC based on **triggers**. These triggers
 can be events like:
 
+- **ANY_CLICK**: When a player clicks the NPC (left or right).
 - **LEFT_CLICK**: When a player left-clicks the NPC.
 - **RIGHT_CLICK**: When a player right-clicks the NPC.
 - **CUSTOM**: Custom events triggered through the API.
@@ -21,14 +22,18 @@ the next action. Administrators can add, modify, and reorder these actions using
 
 The system currently supports the following action types:
 
-- **Message**: Sends a message to the player.
-- **ConsoleCommand**: Executes a command as the server/console.
-- **PlayerCommand**: Executes a command as the player.
-- **SendToServer**: Sends the player to another server (using BungeeCord plugin messaging).
-- **WaitAction**: Pauses the action sequence for a specific duration.
-- **ExecuteRandomAction**: Randomly selects and performs one action from a list, below the current action.
+- **message**: Sends a message to the player.
+- **console_command**: Executes a command as the server/console.
+- **player_command**: Executes a command as the player.
+- **player_command_as_op**: Executes a command as the player, but with operator permissions.
+- **send_to_server**: Sends the player to another server (using BungeeCord plugin messaging).
+- **wait**: Pauses the action sequence for a specific duration.
+- **execute_random_action**: Randomly selects and performs one action from a list, below the current action.
+- **block_until_done**: Blocks interactions with the NPC until the current action-sequence is completed.
 
 ## Command Overview
+
+<tip>All commands are well documented in the <a href="FN-Commands.md">commands page</a>. The commands below might be outdated.</tip>
 
 FancyNPCs provides a range of commands for managing actions attached to an NPC. The following sections describe each
 command and its usage.
