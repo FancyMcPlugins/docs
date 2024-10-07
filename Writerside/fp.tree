@@ -30,4 +30,5 @@
             <toc-element topic="FH-clickable-holograms.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="Development-Guidelines.md"/>
 </instance-profile>
