@@ -40,7 +40,7 @@ dependencies {
 
 ## JavaDoc
 
-You can find the JavaDoc [here](https://fancyplugins.de/javadocs/fancynpcs/)
+You can find the JavaDoc [here](https://repo.fancyplugins.de/javadoc/releases/de/oliver/FancyNpcs/latest)
 
 ## List of all events
 

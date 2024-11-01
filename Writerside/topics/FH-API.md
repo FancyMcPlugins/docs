@@ -39,7 +39,7 @@ dependencies {
 
 ## JavaDoc
 
-You can find the JavaDoc [here](https://fancyplugins.de/javadocs/fancyholograms/)
+You can find the JavaDoc [here](https://repo.fancyplugins.de/javadoc/releases/de/oliver/FancyHolograms/latest)
 
 ## Create a new hologram
 
