@@ -201,6 +201,12 @@ Description: Enables/disables the text shadow<br/>
 Syntax: ``/Hologram edit (hologram) textShadow (true|false)``<br/>
 Permission: ``FancyHolograms.admin``
 
+## brightness
+
+Description: Changes the brightness of the hologram<br/>
+Syntax: ``/hologram edit <hologram> brightness (block | sky) (0-15)``<br/>
+Permission: ``FancyHolograms.admin``
+
 ## textAlignment
 
 Description: Enables/disables the text shadow<br/>
