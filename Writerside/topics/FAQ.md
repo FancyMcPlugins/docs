@@ -62,7 +62,7 @@ The following questions are valid for both FancyNpcs and FancyHolograms.
 
 - There is no official integration or addon for Shopkeepers
 - But you can use the "/shopkeeper remote" as console_command actions
-- Example `/npc action MY_NPC any_click add console_command shopkeeper remote SHOPKEEPER_ID %player_name%`
+- Example `/npc action MY_NPC any_click add console_command shopkeeper remote SHOPKEEPER_ID {player}`
 - SHOPKEEPER_ID: the display name of the shopkeeper
 
 ## FancyHolograms
