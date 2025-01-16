@@ -23,6 +23,13 @@ Description: Reloads the config and holograms<br/>
 Syntax: ``/FancyHolograms reload``<br/>
 Permission: ``FancyHolograms.admin``
 
+## convert
+
+Description: Converts holograms from other hologram-plugins to FancyHolograms' holograms<br/>
+Syntax: ``/FancyHolograms convert DecentHolograms <* | name of hologram> [--processIcons]``<br/>
+Permission: ``FancyHolograms.admin``<br/>
+Process icons: when using the `--processIcons` flag, the converter will also convert icons into separate holograms
+
 ## /Holograms ...
 
 ## help
