@@ -43,39 +43,44 @@ You can find the JavaDoc [here](https://repo.fancyplugins.de/javadoc/releases/de
 
 ## Create a new hologram
 
+FancyHolograms offers builders to create new holograms. There is one builder for each hologram type.
+
+Creating a text hologram with some modified attributes:
+
 ```java
-HologramManager manager = FancyHologramsPlugin.get().getHologramManager();
+Hologram hologram = TextHologramBuilder.create("MyTextHologram", new Location(Bukkit.getWorld("world"), 50, 100, 50))
+    .text("<red>Hello World!</red>", "<green>How are you?</green>")
+    .background(Color.ORANGE)
+    .textShadow(true)
+    .billboard(Display.Billboard.FIXED)
+    .buildAndRegister();
+```
 
-TextHologramData hologramData = new TextHologramData("hologram_name", location); // or create BlockHologramData / ItemHologramData
-// Adjust the Hologram Data (Optional)
-hologramData.setBackground(TextColor.color(100, 255, 79));
-hologramData.setBillboard(Display.Billboard.FIXED);
+This code will create the hologram and register it. By registering it to the HologramsRegistry, 
+FancyHolograms will take care of the visibility (when to show or hide the hologram to players).  
+If you want to control this by yourself, you can choose to only build and not register.
 
-Hologram hologram = manager.create(data);
+If you want to create an item or block hologram, simply use the builders for them:
 
-// Register the hologram to the HologramManager (FancyHolograms will display, save and load the hologram)
-// Use HologramData#setPersistent to stop the hologram from being saved
-manager.addHologram(hologram); 
+```java
+Hologram hologram = ItemHologramBuilder.create("MyItemHologram", new Location(Bukkit.getWorld("world"), 0, 111, 0))
+    .item(new ItemStack(Material.DIAMOND))
+    .buildAndRegister();
+```
+
+```java
+Hologram hologram = BlockHologramBuilder.create("MyBlockHologram", new Location(Bukkit.getWorld("world"), 0, 235, 0))
+    .block(Material.GOLD_BLOCK)
+    .buildAndRegister();
 ```
 
 ## Modify an existing hologram
 
-```java
-HologramManager manager = FancyHologramsPlugin.get().getHologramManager();
+## The registry
 
-Hologram hologram = manager.getHologram("hologram_name").orElse(null);
-if (hologram == null) {
-    // hologram not found
-    return;
-}
+## The controller
 
-HologramData hologramData = hologram.getData();
-hologramData.setBillboard(Display.Billboard.CENTER);
-
-if (hologramData instanceof TextHologramData textData) {
-    textData.setTextAlignment(TextDisplay.TextAlignment.LEFT);
-}
-```
+## Using FancyHolograms events
 
 ## Help about the API
 
