@@ -3,7 +3,7 @@
 This page provides detailed information about the various commands available in FancyNpcs, allowing you to make the
 most out of its features.
 
-## Commadns for /fancynpcs
+### Commands for /fancynpcs
 
 ### `/fancynpcs feature_flags`
 
@@ -25,7 +25,7 @@ most out of its features.
 - **Syntax**:  `/fancynpcs version`
 - **Permissions**: `fancynpcs.command.fancynpcs.version`
 
-## Commadns for /npc
+### Commadns for /npc
 
 ### `/npc attribute`
 
@@ -171,15 +171,20 @@ Re-connecting to the server might be required for changes to take effect.
 
 Changes skin of the NPC.
 
+- **Syntax**:  `/npc skin (npc) (@none | @mirror | name | url | file name) [--slim]`
+
 ``@none`` - Removes skin.
 
 ``@mirror`` - Mirrors the skin of the player viewing the npc.
 
-``name`` - Changes skin to the specified player's skin.
+``name`` / ``uuid`` - Changes skin to the specified player's skin.
 
-``url`` - Changes skin to the specified URL.
+``url`` - Changes skin to the specified URL. The URL must point to a valid skin-image.
 
-- **Syntax**:  `/npc skin (npc) (@none | @mirror | name | url)`
+``file name`` - Changes skin to the specified image. The image must be located in the ``plugins/FancyNpcs/skins`` directory. Please only provide the file name (e. g. "cool-skin.png"). 
+
+``--slim`` - Only works for skins set by an URL or file.
+
 - **Permissions**: `fancynpcs.command.npc.skin`
 
 ### `/npc teleport`

@@ -38,13 +38,13 @@
 
 <procedure title="Modify NPCs display name">
     <p>Run the following command to modify the NPCs display name:</p>
-    <step>/npc displayName myNpc New display name!</step>
+    <step>/npc displayname myNpc New display name!</step>
     <step>The NPCs display name should now be "New display name".</step>
 </procedure>
 
 <procedure title="Move the NPC to you">
     <p>Run the following command to move the NPC to you:</p>
-    <step>/npc moveHere myNpc</step>
+    <step>/npc move_here myNpc</step>
     <step>The NPC should now be at your location.</step>
 </procedure>
 

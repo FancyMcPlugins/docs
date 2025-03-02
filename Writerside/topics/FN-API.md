@@ -76,9 +76,8 @@ Is fired when NPC stops looking at a player
 
 ```java
 NpcData data = new NpcData("myNpc", creatorUUID, location);
-SkinFetcher skin = new SkinFetcher("username or url");
-data.setSkin(skin);
-data.setDisplayName("<red>cool displayname");
+data.setSkin("OliverHD"); // use skin of the player OliverHD
+data.setDisplayName("<red>cool displayname</red>");
 
 Npc npc = FancyNpcsPlugin.get().getNpcAdapter().apply(data);
 FancyNpcsPlugin.get().getNpcManager().registerNpc(npc);
