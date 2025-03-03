@@ -68,7 +68,7 @@ More information can be found in **[Documentation](https://fancyplugins.de/docs/
     <groupId>de.oliver</groupId>
     <artifactId>FancyHolograms</artifactId>
     <version>[VERSION]</version>
-    <scope>provided</version>
+    <scope>provided</scope>
 </dependency>
 ```
 

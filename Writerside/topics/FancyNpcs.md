@@ -70,7 +70,7 @@ More information can be found in **[Documentation](https://fancyplugins.de/docs/
     <groupId>de.oliver</groupId>
     <artifactId>FancyNpcs</artifactId>
     <version>[VERSION]</version>
-    <scope>provided</version>
+    <scope>provided</scope>
 </dependency>
 ```
 
