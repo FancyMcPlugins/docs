@@ -3,7 +3,7 @@
 This page provides detailed information about the various commands available in FancyNpcs, allowing you to make the
 most out of its features.
 
-## Commadns for /fancynpcs
+## Commands for /fancynpcs
 
 ### `/fancynpcs feature_flags`
 
@@ -25,7 +25,7 @@ most out of its features.
 - **Syntax**:  `/fancynpcs version`
 - **Permissions**: `fancynpcs.command.fancynpcs.version`
 
-## Commadns for /npc
+## Commands for /npc
 
 ### `/npc attribute`
 
