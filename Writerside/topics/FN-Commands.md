@@ -25,11 +25,7 @@ most out of its features.
 - **Syntax**:  `/fancynpcs version`
 - **Permissions**: `fancynpcs.command.fancynpcs.version`
 
-<<<<<<< HEAD
-## Commands for /npc
-=======
-### Commadns for /npc
->>>>>>> a1494bd (Update docs for new skin system)
+### Commands for /npc
 
 ### `/npc attribute`
 
