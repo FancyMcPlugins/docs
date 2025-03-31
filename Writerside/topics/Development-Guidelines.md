@@ -1,5 +1,9 @@
 # Development Guidelines
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 This topic is all about the development guidelines that we follow at FancyPlugins. It is important to follow these
 guidelines to maintain the quality of the code and to make sure that the code is consistent and easy to read.
 

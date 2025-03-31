@@ -1,5 +1,9 @@
 # FancyNpcs
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 [![GitHub Release](https://img.shields.io/github/v/release/FancyMcPlugins/FancyNpcs?logo=github&labelColor=%2324292F&color=%23454F5A)](https://github.com/FancyMcPlugins/FancyNpcs/releases/latest)
 [![Supports Folia](https://img.shields.io/badge/folia-supported-%23F9D879?labelColor=%2313154E&color=%234A44A6)](https://papermc.io/software/folia)
 [![Discord](https://img.shields.io/discord/899740810956910683?cacheSeconds=3600&logo=discord&logoColor=white&label=%20&labelColor=%235865F2&color=%23707BF4)](https://discord.gg/ZUgYCEJUEx)

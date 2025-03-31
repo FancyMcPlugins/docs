@@ -1,5 +1,9 @@
 # MineSkin API Key
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 When you have many npcs with skins (especially skins by file or url), you will notice that it takes a while once they
 are all loaded. The reason for that is the rate-limit by MineSkin. We use MineSkin to generate the necessary skin data.
 At the moment they have a limit of **10 skins per minute**. Using an MineSkin API Key does increase the limit to **30

@@ -1,5 +1,9 @@
 # Privacy
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 ## Introduction
 
 Thank you for using FancyNpcs! We take your privacy seriously and are committed to protecting it. This

@@ -1,5 +1,9 @@
 # Commands
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 This page provides detailed information about the various commands available in FancyHolograms, allowing you to make the
 most out of its features.
 

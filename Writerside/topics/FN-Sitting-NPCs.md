@@ -1,5 +1,9 @@
 # Sitting NPCs
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 You can make a NPC sit by following these steps:
 
 1. create a NPC

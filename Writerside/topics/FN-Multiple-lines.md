@@ -1,5 +1,9 @@
 # Multiple lines
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 To have multiple lines as the display name of an NPC follow the following steps:
 
 1. download the [FancyHolograms](https://modrinth.com/plugin/fancyholograms/versions) plugin and put it in the plugins

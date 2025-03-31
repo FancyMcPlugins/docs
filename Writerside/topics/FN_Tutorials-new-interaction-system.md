@@ -1,5 +1,9 @@
 # New Interaction System
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 The **NPC Action System** in FancyNPCs allows server administrators to create interactive and engaging NPCs by assigning
 actions that trigger based on player interactions or custom events. This article explains the general concept of the
 system and provides a guide on how server admins can leverage it through commands.

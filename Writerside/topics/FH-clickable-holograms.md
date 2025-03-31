@@ -1,5 +1,9 @@
 # Clickable holograms
 
+> The documentation has been moved to [https://docs.fancyplugins.de/](https://docs.fancyplugins.de/)
+> This documentation might be outdated and will not be updated anymore.
+{style="warning"}
+
 Interactions with holograms is not a feature of FancyHolograms yet, but there is a workaround for this.
 
 1. Create your hologram with the text you want.
